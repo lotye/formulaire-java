@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fichier.css">
+    <title></title>
+
+</head>
+
+<body>
+    <p>formulaire DWWM</p>
+
+    <div class="form" action="#" method="post">
+        <div class="gdiv">
+            <div class="div1">
+                Nom
+            </div>
+            <div class="div2">
+                <input type="text" id="Name" placeholder="Entré votre nom">
+            </div>
+        </div>
+        <div class="gdiv">
+            <div class="div1">
+                Email
+            </div>
+            <div class="div2">
+                <input type="email" id="Email" placeholder="Entrez votre Email">
+            </div>
+        </div>
+        <div class="gdiv">
+            <div class="div1">
+                Indiquez votre satisfaction au <br> cours de 1à10
+            </div>
+            <div class="div2">
+                <input type="number" id="names" placeholder="numero de 1à10 ">
+            </div>
+        </div>
+        <div class="gdiv">
+            <div class="div1">
+                Qui est votre Coach?
+            </div>
+            <div class="div2">
+                <select id="Select">
+                    <option value="Birante">Birante</option>
+                    <option value="Mamadou">Mamadou</option>
+                    <option value="Malick">Malick</option>
+                </select>
+            </div>
+        </div>
+        <!-- <div class="gdiv">
+            <div class="div1">
+                A quel moment avez-vous cours
+            </div>
+            <div class="div2" id="temps">
+                <input type="radio"> Matin <br>
+                <input type="radio">Apres-midi <br>
+                <input type="radio"> Soir<br>
+            </div>
+        </div>
+        <div class="gdiv">
+            <div class="div1">
+                Quels outils avez-vous rencontrés jusque là<br> (Selectionnez tout ce qui s'applique)
+            </div>
+            <div class="div2" id="types">
+                <input type="checkbox"> HTML <br>
+                <input type="checkbox"> CSS <br>
+                <input type="checkbox"> Javascript <br>
+                <input type="checkbox"> Editeur de texte<br>
+                <input type="checkbox"> Ligne de comande <br>
+            </div>
+        </div> -->
+
+
+        <div class="gdiv">
+            <div class="div1">
+                Decrivez votre experience jusque là
+            </div>
+            <div class="div2">
+                <textarea placeholder="decrivez votre experience..." rows="5" id="Experience"></textarea>
+            </div>
+        </div>
+
+        <div id="btn">
+           <button onclick="myFunction()" type="button">Envoyer</button>
+        </div>
+
+        <p id="nom">  </p>
+        <p id="email"> </p>
+        <p id="nombre"> </p>
+        <p id="selection"></p>
+        <p id="experer"></p>
+
+    </div>
+
+
+    </table>
+
+<script src="script.js"></script>
+</body>
+
+</html>
